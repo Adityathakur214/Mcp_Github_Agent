@@ -1,0 +1,100 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Virtual Environment
+# ==============================
+
+venv/
+env/
+.venv/
+ENV/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Build / Distribution
+# ==============================
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ==============================
+# MCP / Local Runtime Files
+# ==============================
+
+.mcp/
+mcp_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.bak
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Local Configuration
+# ==============================
+
+config.local.*
+settings.local.*
